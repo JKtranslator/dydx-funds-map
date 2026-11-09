@@ -1,0 +1,46 @@
+name: Refresh funds map
+
+# Hourly: read the treasury's balances onchain, rebuild data/funds.json and index.html, commit if
+# changed; Pages redeploys on the push. Also runs on demand (Actions > Refresh funds map > Run workflow).
+# The treasury addresses live only in the FUNDS_MAP_ADDRESSES repository secret; the script never
+# writes or prints them.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'      # hourly, off the top of the hour when Actions queues are busiest
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Read balances and rebuild the page
+        env:
+          FUNDS_MAP_ADDRESSES: ${{ secrets.FUNDS_MAP_ADDRESSES }}
+        run: python scripts/refresh.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/funds.json index.html
+          if git diff --staged --quiet; then
+            echo "no change"
+          else
+            git commit -m "data: hourly funds refresh"
+            git pull --rebase -q origin main
+            git push
+          fi
