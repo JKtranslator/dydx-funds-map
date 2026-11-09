@@ -1,15 +1,15 @@
 {
- "updated_utc": "2026-11-09T11:23:29Z",
- "dydx_height": 113113667,
+ "updated_utc": "2026-11-09T11:26:35Z",
+ "dydx_height": 113113970,
  "prices": {
-  "DYDX": 0.090651,
-  "USDY": 1.147067,
-  "USDC": 0.999471,
-  "USDT": 0.999128,
-  "ETH": 2127.799384,
-  "OSMO": 0.035694,
+  "DYDX": 0.09048,
+  "USDY": 1.147171,
+  "USDC": 0.999489,
+  "USDT": 0.999125,
+  "ETH": 2119.734512,
+  "OSMO": 0.035613,
   "source": "CoinGecko",
-  "binance_dydxusdt": 0.09047
+  "binance_dydxusdt": 0.09058
  },
  "positions": [
   {
@@ -18,7 +18,7 @@
    "venue": "Staking Programme",
    "venue_sub": null,
    "assets": {
-    "DYDX": 9134000.0
+    "DYDX": 9117000.0
    }
   },
   {
