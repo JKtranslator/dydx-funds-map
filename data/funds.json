@@ -1,15 +1,15 @@
 {
- "updated_utc": "2026-11-11T01:15:51Z",
- "dydx_height": 113324068,
+ "updated_utc": "2026-11-11T07:48:58Z",
+ "dydx_height": 113360906,
  "prices": {
-  "DYDX": 0.08986,
-  "USDY": 1.152593,
-  "USDC": 0.999518,
-  "USDT": 0.99909,
-  "ETH": 2044.139676,
-  "OSMO": 0.03205,
+  "DYDX": 0.089243,
+  "USDY": 1.152545,
+  "USDC": 0.999513,
+  "USDT": 0.999094,
+  "ETH": 2061.826437,
+  "OSMO": 0.032663,
   "source": "CoinGecko",
-  "binance_dydxusdt": 0.08985
+  "binance_dydxusdt": 0.08919
  },
  "positions": [
   {
@@ -18,7 +18,7 @@
    "venue": "Staking Programme",
    "venue_sub": null,
    "assets": {
-    "DYDX": 9054000.0
+    "DYDX": 8992000.0
    }
   },
   {
@@ -136,7 +136,7 @@
    {
     "name": "AutoStake  Slash Protected",
     "dydx": 5590000.0,
-    "active": true
+    "active": false
    },
    {
     "name": "Enigma",
