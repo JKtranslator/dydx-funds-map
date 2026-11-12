@@ -1,15 +1,15 @@
 {
- "updated_utc": "2026-11-12T03:50:16Z",
- "dydx_height": 113474621,
+ "updated_utc": "2026-11-12T12:45:48Z",
+ "dydx_height": 113525068,
  "prices": {
-  "DYDX": 0.090062,
-  "USDY": 1.152525,
-  "USDC": 0.999466,
-  "USDT": 0.99906,
-  "ETH": 2052.324785,
-  "OSMO": 0.033244,
+  "DYDX": 0.08849,
+  "USDY": 1.152324,
+  "USDC": 0.999468,
+  "USDT": 0.998956,
+  "ETH": 2019.177634,
+  "OSMO": 0.032698,
   "source": "CoinGecko",
-  "binance_dydxusdt": 0.08998
+  "binance_dydxusdt": 0.08858
  },
  "positions": [
   {
@@ -18,7 +18,7 @@
    "venue": "Staking Programme",
    "venue_sub": null,
    "assets": {
-    "DYDX": 9075000.0
+    "DYDX": 8916000.0
    }
   },
   {
@@ -37,7 +37,7 @@
    "venue": "Buyback wallet",
    "venue_sub": "USDC on dYdX Chain",
    "assets": {
-    "USDC": 15000.0
+    "USDC": 17000.0
    }
   },
   {
@@ -46,7 +46,7 @@
    "venue": "Morpho",
    "venue_sub": "KPK USDC Prime Vault",
    "assets": {
-    "USDC": 510000.0
+    "USDC": 1365000.0
    }
   },
   {
@@ -55,16 +55,7 @@
    "venue": "Ondo Finance",
    "venue_sub": "US Dollar Yield (USDY)",
    "assets": {
-    "USDY": 3535000.0
-   }
-  },
-  {
-   "id": "eth_wallet",
-   "chain": "Ethereum",
-   "venue": "Staking Vault wallet",
-   "venue_sub": "Stablecoins held in the wallet",
-   "assets": {
-    "USDC": 855000.0
+    "USDY": 3534000.0
    }
   },
   {
@@ -136,7 +127,7 @@
    {
     "name": "AutoStake  Slash Protected",
     "dydx": 5590000.0,
-    "active": false
+    "active": true
    },
    {
     "name": "Enigma",
