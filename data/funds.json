@@ -1,15 +1,15 @@
 {
- "updated_utc": "2026-11-11T22:43:28Z",
- "dydx_height": 113444946,
+ "updated_utc": "2026-11-12T03:50:16Z",
+ "dydx_height": 113474621,
  "prices": {
-  "DYDX": 0.092206,
-  "USDY": 1.152337,
-  "USDC": 0.99954,
-  "USDT": 0.999124,
-  "ETH": 2059.04114,
-  "OSMO": 0.033632,
+  "DYDX": 0.090062,
+  "USDY": 1.152525,
+  "USDC": 0.999466,
+  "USDT": 0.99906,
+  "ETH": 2052.324785,
+  "OSMO": 0.033244,
   "source": "CoinGecko",
-  "binance_dydxusdt": 0.09167
+  "binance_dydxusdt": 0.08998
  },
  "positions": [
   {
@@ -18,7 +18,7 @@
    "venue": "Staking Programme",
    "venue_sub": null,
    "assets": {
-    "DYDX": 9291000.0
+    "DYDX": 9075000.0
    }
   },
   {
@@ -55,7 +55,7 @@
    "venue": "Ondo Finance",
    "venue_sub": "US Dollar Yield (USDY)",
    "assets": {
-    "USDY": 3534000.0
+    "USDY": 3535000.0
    }
   },
   {
