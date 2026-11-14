@@ -1,15 +1,15 @@
 {
- "updated_utc": "2026-11-13T23:36:19Z",
- "dydx_height": 113717416,
+ "updated_utc": "2026-11-14T06:28:00Z",
+ "dydx_height": 113754542,
  "prices": {
-  "DYDX": 0.089217,
-  "USDY": 1.152723,
-  "USDC": 0.999469,
-  "USDT": 0.999095,
-  "ETH": 1923.26614,
-  "OSMO": 0.034588,
+  "DYDX": 0.087996,
+  "USDY": 1.152618,
+  "USDC": 0.999584,
+  "USDT": 0.999202,
+  "ETH": 1906.380935,
+  "OSMO": 0.033619,
   "source": "CoinGecko",
-  "binance_dydxusdt": 0.08935
+  "binance_dydxusdt": 0.08819
  },
  "positions": [
   {
@@ -18,7 +18,7 @@
    "venue": "Staking Programme",
    "venue_sub": null,
    "assets": {
-    "DYDX": 8990000.0
+    "DYDX": 8867000.0
    }
   },
   {
@@ -27,7 +27,7 @@
    "venue": "Staking Programme",
    "venue_sub": null,
    "assets": {
-    "USDC": 23000.0,
+    "USDC": 24000.0,
     "DYDX": 30.0
    }
   },
@@ -37,7 +37,7 @@
    "venue": "Buyback wallet",
    "venue_sub": "USDC on dYdX Chain",
    "assets": {
-    "USDC": 29000.0
+    "USDC": 32000.0
    }
   },
   {
@@ -72,7 +72,7 @@
  "staking": {
   "delegated_dydx": 100760000.0,
   "unbonding_dydx": 0.0,
-  "rewards_usdc": 23000.0,
+  "rewards_usdc": 24000.0,
   "validators": [
    {
     "name": "CLC",
