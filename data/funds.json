@@ -1,15 +1,15 @@
 {
- "updated_utc": "2026-11-14T14:11:06Z",
- "dydx_height": 113796534,
+ "updated_utc": "2026-11-14T19:11:39Z",
+ "dydx_height": 113825919,
  "prices": {
-  "DYDX": 0.082048,
-  "USDY": 1.152524,
-  "USDC": 0.999658,
-  "USDT": 0.999388,
-  "ETH": 1873.075432,
-  "OSMO": 0.031153,
+  "DYDX": 0.078528,
+  "USDY": 1.152331,
+  "USDC": 0.999645,
+  "USDT": 0.999381,
+  "ETH": 1832.460563,
+  "OSMO": 0.03157,
   "source": "CoinGecko",
-  "binance_dydxusdt": 0.08195
+  "binance_dydxusdt": 0.07845
  },
  "positions": [
   {
@@ -18,7 +18,7 @@
    "venue": "Staking Programme",
    "venue_sub": null,
    "assets": {
-    "DYDX": 8267000.0
+    "DYDX": 7913000.0
    }
   },
   {
@@ -28,7 +28,7 @@
    "venue_sub": null,
    "assets": {
     "USDC": 24000.0,
-    "DYDX": 30.0
+    "DYDX": 20.0
    }
   },
   {
@@ -37,7 +37,7 @@
    "venue": "Buyback wallet",
    "venue_sub": "USDC on dYdX Chain",
    "assets": {
-    "USDC": 32000.0
+    "USDC": 33000.0
    }
   },
   {
@@ -55,7 +55,7 @@
    "venue": "Ondo Finance",
    "venue_sub": "US Dollar Yield (USDY)",
    "assets": {
-    "USDY": 3535000.0
+    "USDY": 3534000.0
    }
   },
   {
@@ -127,7 +127,7 @@
    {
     "name": "AutoStake  Slash Protected",
     "dydx": 5590000.0,
-    "active": true
+    "active": false
    },
    {
     "name": "Enigma",
