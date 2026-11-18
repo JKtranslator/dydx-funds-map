@@ -1,15 +1,15 @@
 {
- "updated_utc": "2026-11-18T14:02:04Z",
- "dydx_height": 114341004,
+ "updated_utc": "2026-11-18T21:59:03Z",
+ "dydx_height": 114385950,
  "prices": {
-  "DYDX": 0.082294,
-  "USDY": 1.152519,
-  "USDC": 0.999578,
-  "USDT": 0.999137,
-  "ETH": 1788.791728,
-  "OSMO": 0.030446,
+  "DYDX": 0.080371,
+  "USDY": 1.152495,
+  "USDC": 0.999526,
+  "USDT": 0.99887,
+  "ETH": 1761.461555,
+  "OSMO": 0.030126,
   "source": "CoinGecko",
-  "binance_dydxusdt": 0.08233
+  "binance_dydxusdt": 0.08055
  },
  "positions": [
   {
@@ -18,7 +18,7 @@
    "venue": "Staking Programme",
    "venue_sub": null,
    "assets": {
-    "DYDX": 8292000.0
+    "DYDX": 8098000.0
    }
   },
   {
@@ -27,7 +27,7 @@
    "venue": "Staking Programme",
    "venue_sub": null,
    "assets": {
-    "USDC": 24000.0,
+    "USDC": 25000.0,
     "DYDX": 30.0
    }
   },
@@ -37,7 +37,7 @@
    "venue": "Buyback wallet",
    "venue_sub": "USDC on dYdX Chain",
    "assets": {
-    "USDC": 53000.0
+    "USDC": 56000.0
    }
   },
   {
@@ -46,7 +46,7 @@
    "venue": "Morpho",
    "venue_sub": "KPK USDC Prime Vault",
    "assets": {
-    "USDC": 1367000.0
+    "USDC": 1366000.0
    }
   },
   {
@@ -72,7 +72,7 @@
  "staking": {
   "delegated_dydx": 100760000.0,
   "unbonding_dydx": 0.0,
-  "rewards_usdc": 24000.0,
+  "rewards_usdc": 25000.0,
   "validators": [
    {
     "name": "CLC",
